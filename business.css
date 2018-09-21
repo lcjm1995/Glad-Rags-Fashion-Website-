@@ -1,0 +1,98 @@
+* {
+	padding: 5px;
+	margin: 5px;
+}
+#container {
+	margin: 0 auto;
+	width: 960px;
+	background-opacity: 0.7;
+}
+header h1{
+	/* I can now use the lobster font family as I have attached it to the HTML page which also uses this css */
+	font-family: 'lobster', verdana;
+	font-style: normal;
+	font-size: 100%;
+	background-color: #FFFFFF;
+	opacity: 0.9;
+}
+
+header, footer {
+	background-color: #FFFFFF;
+}
+
+header {
+	min-height: 40px
+	margin-bottom: 5px;
+}
+
+#main_body {
+	min-height: 200px;
+	margin-bottom: 5px;
+	font-family: verdana;
+}
+
+footer {
+  background-color: white;
+  width: 100%;
+}
+
+header h1 {
+	color: #B900C0;
+	font-size: 32pt;
+	display: inline-block;
+	vertical-align: middle;
+	opacity: 0.7;
+}
+header img {
+	height: 55px;
+	vertical-align: middle;
+}
+h2 {
+	
+	color: #D937DF;
+	font-family: 'lobster';
+	font-size: 20pt;
+	display: inline-block;
+	vertical-align: middle;
+	opacity: 0.7;
+}
+h3 {
+	color: #D937DF;
+	font-size: 16pt;
+	display: inline-block;
+	vertical-align: middle;
+	opacity: 0.7;
+}
+p {
+	color: #DB63DF;
+	font-size: 9pt;
+}
+p {
+	background-color: #FF9000;
+	opacity: 0.7;
+}
+footer ul {
+	text-align: center;
+}
+footer ul li {
+	list-style-type: none;
+	display: inline;
+	font-size: 10pt;
+	color: #DB63DF;
+}
+
+.keep_clear {
+	clear: both;
+}
+.headerRight {
+	padding: 0;
+	float: right;
+}
+.headerFloatRight {
+	float: right;
+}
+.headerFloatLeft {
+	float: left;
+}
+
+	
